@@ -16,8 +16,8 @@
         const player = ruffle.createPlayer();
         const container = document.getElementById("container");
         container.appendChild(player);
-        player.ruffle().load("DuckLife.swf");
         player.style.width = "600px"; player.style.height = "400px";
+        player.ruffle().load("DuckLife.swf");
       });
     </script>
     <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
